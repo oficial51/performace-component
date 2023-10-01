@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+body{font-family: 'Hanken Grotesk', sans-serif;}
+
+.bga{
+    background: linear-gradient(360deg, #302EEB, #6743FF );
+}
+.rounded-b-4xl{
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+@media (min-width: 768px ) {
+    .rounded-b-4xl{
+        border-radius: 35px;
+    }
+}
+
+@media (min-width: 768px ) {
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+.bgLinear{
+    background: linear-gradient(360deg, #4734F0, #4923D0);
+}
+
+.bgred{
+    background-color: #FFF6F5;
+}
+.textred{
+    color: #CE555E;
+}
+
+.bgyellow{
+    background-color: #FFFBF2;
+}
+.textyellow{
+    color: #F1C064;
+}
+
+.bggreen{
+    background-color: #F2FBFA;
+}
+.textgreen{
+    color: #3FA387;
+}
+
+.bgblue{
+    background-color: #F3F3FD;
+}
+.textblue{
+    color: #363585;
+}
+.button{
+    background-color: #303B59;
+}
+button:hover{
+    background: linear-gradient(360deg, #302EEB, #6743FF );
+    transition: all;
+    transition-duration: 200;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
